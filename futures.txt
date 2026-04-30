@@ -1,0 +1,7 @@
+Funcionalidades Futuras (Sugestões de Integração com IA)
+------------------------------------------------------
+1. Gerador de Requisições por Texto: O usuário digita "Crie uma requisição de login com email e senha" e a IA monta o método, URL, headers e o JSON do body automaticamente.
+2. Analisador de Erros Inteligente: Quando a API retornar um erro (como o 415 Unsupported Media Type ou 500 Internal Server Error), a IA lê a resposta e sugere a correção exata (ex: "Faltou adicionar o header Content-Type: application/json").
+3. Gerador de Massa de Dados (Mock): Preenchimento automático do Body da requisição com dados fictícios realistas usando IA com base no nome das chaves JSON.
+4. Criação Automática de Testes: A IA analisa o JSON de resposta de uma requisição bem sucedida e gera um script de teste de API (verificando status 200, tipos dos campos, etc).
+5. Documentador de API (Swagger/OpenAPI): A IA lê o histórico das suas requisições e respostas e gera o arquivo de documentação completo da sua API de forma automática.
